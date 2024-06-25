@@ -19,6 +19,8 @@ samples, guidance on mobile development, and a full API reference.
 # TabBar Widget
 
 pada widget AppBar terdapat properti atau name argument bottom, pada bottom dapat digunakan untuk sebuah widget TabBar yang memiiki properti Tabs yang membutuh List if Widget. TabBar sendiri harus memiliku DefaultTabController yang dapat mengatur TabBar dan Tab. DefaultTabController bisa berada di Atas Scaffold Atau TabBar akan tetapi jika TabBar harus memiliki PreferedSize. di dalam Tab memiliki banyak properti atau name argument yang dapat kita gunakan untuk mendefiniskan tab.
+![app_bar](https://github.com/appworkspaceRM/tabbar-widget/assets/135511281/24896b4f-d930-41d5-b234-c12260b93e8b)
+
 
 - text
 - child
@@ -181,3 +183,5 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
+
+![code-snapshot](https://github.com/appworkspaceRM/tabbar-widget/assets/135511281/c46d79c2-1f08-4427-b382-553266edf2df)
